@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">My Class Schedule</string>
+    <string name="textinicio">Empezar</string>
+    <string name="titulo">My Class</string>
+    <string name="titulo1">Schedule</string>
+    <string name="text1">Mi Horario</string>
+    <string name="text2">Actividades Pendientes</string>
+    <string name="tituloOpciones">My Class Schedule</string>
+    <string name="AgregarOpciones">Agregar Curso</string>
+    <string name="AgregarOpciones1">Agregar Actividad</string>
+    <string name="AgregarOpciones2">Actualizar Curso</string>
+    <string name="AgregarOpciones3">Eliminar Curso</string>
+    <string name="txtAgregar">Agregar Curso</string>
+    <string name="nombrecurso">Nombre del Curso:</string>
+    <string name="grupo">Grupo:</string>
+    <string name="dia">Dia de la semana:</string>
+    <string name="hora">Hora:</string>
+    <string name="aula">Aula:</string>
+    <string name="docente">Docente:</string>
+    <string name="btnagregar">agregar</string>
+    <string name="txttituloactualizar">Actualizar Curso</string>
+    <string name="txttituloactualizarActividad">Actualizar Actividad</string>
+    <string name="txttituloeliminarActividad">Eliminar Actividad</string>
+    <string name="txtmiscursos">Mis Curso</string>
+    <string name="txteliminarcursos">Eliminar Curso</string>
+    <string name="txtactualizarcurso">Actualizar Curso</string>
+    <string name="txtagregaractividad">Agregar Actividad</string>
+    <string name="txtcurso">Curso</string>
+    <string name="descripcionActividad">Descripcion</string>
+    <string name="fechadeentraga">Fecha de entrega</string>
+    <string name="txteliminar">Eliminar</string>
+    <string name="txtselecActualizar">Seleccionar</string>
+    <string name="default_web_clientid" />
+    <string name="emailinvalido">Ingrese un E-mail valido.</string>
+    <string name="contraseñavalida">Ingrese una contraseña mayor a 6 digitos.</string>
+    <string name="msg_token_fmt" />
+    <string name="boot_message" />
+
+
+</resources>

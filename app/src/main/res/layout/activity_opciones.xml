@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".opciones">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/fredokaone"
+        android:text="@string/tituloOpciones"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEliminarCurso"
+        android:layout_width="168dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/AgregarOpciones3"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:cornerRadius="15dp"
+        app:icon="@drawable/eliminar__2_"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnActualizarCurso" />
+
+    <Button
+        android:id="@+id/btnEliminarActividad"
+        android:layout_width="168dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/txttituloeliminarActividad"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:cornerRadius="15dp"
+        app:icon="@drawable/eliminar__2_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnActualizarActividad" />
+
+    <Button
+        android:id="@+id/btnAgregaroActividad"
+        android:layout_width="168dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/AgregarOpciones1"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:cornerRadius="15dp"
+        app:icon="@drawable/diario__1_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/btnActualizarCurso"
+        android:layout_width="168dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/AgregarOpciones2"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:cornerRadius="15dp"
+        app:icon="@drawable/actualizar_flecha__1_"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAgregaroCurso" />
+
+    <Button
+        android:id="@+id/btnActualizarActividad"
+        android:layout_width="168dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/txttituloactualizarActividad"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:cornerRadius="15dp"
+        app:icon="@drawable/actualizar_flecha__1_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAgregaroActividad" />
+
+    <Button
+        android:id="@+id/btnAgregaroCurso"
+        android:layout_width="168dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/AgregarOpciones"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:cornerRadius="15dp"
+        app:icon="@drawable/open_book__2_"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="35dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEliminarCurso"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="263dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/istockphoto_1304915362_170667a"></ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

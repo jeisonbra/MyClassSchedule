@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv"
+    android:animateLayoutChanges="true"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    android:background="@color/black">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:background="@drawable/bg1"
+        android:backgroundTintMode="multiply"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="70dp">
+
+        <TextView
+            android:id="@+id/txtdocenteActividadActualizar"
+            android:layout_width="124dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/fredokaone"
+            android:text="docente"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nombrecurso4" />
+
+        <TextView
+            android:id="@+id/txtdiaActividadActualizar"
+            android:layout_width="127dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/fredokaone"
+            android:text="dia"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nombrecurso2" />
+
+        <TextView
+            android:id="@+id/nombrecurso3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="104dp"
+            android:text="Hora"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtdiaActividadActualizar" />
+
+        <TextView
+            android:id="@+id/txthoraActividadActualizar"
+            android:layout_width="134dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:fontFamily="@font/fredokaone"
+            android:text="hora"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nombrecurso3" />
+
+        <TextView
+            android:id="@+id/nombrecurso4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="80dp"
+            android:text="Docente"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txthoraActividadActualizar" />
+
+        <TextView
+            android:id="@+id/nombrecurso2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="112dp"
+            android:text="Dia"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtaulaActividadActualizar"
+            android:layout_width="173dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/fredokaone"
+            android:text="aula"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/aula" />
+
+        <TextView
+            android:id="@+id/nombrecurso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="16dp"
+            android:text="Curso"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtnombreActividadActualizar"
+            android:layout_width="146dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="36dp"
+            android:fontFamily="@font/fredokaone"
+            android:text="Nombre del curso"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle=""
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nombrecurso" />
+
+        <TextView
+            android:id="@+id/grupo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="16dp"
+            android:text="Grupo"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtnombreActividadActualizar" />
+
+        <TextView
+            android:id="@+id/txtgrupoActividadActualizar"
+            android:layout_width="145dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="36dp"
+            android:fontFamily="@font/fredokaone"
+            android:text="Grupo"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/grupo" />
+
+        <TextView
+            android:id="@+id/aula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="8dp"
+            android:text="Aula"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtgrupoActividadActualizar" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
